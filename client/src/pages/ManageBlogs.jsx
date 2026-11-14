@@ -14,7 +14,7 @@ function ManageBlogs() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/blogs"
+        "http://https://techblog-63dr.onrender.com/api/blogs"
       );
 
       if (!response.ok) {
@@ -58,7 +58,7 @@ function ManageBlogs() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/blogs/${id}`,
+        `http://https://techblog-63dr.onrender.com/api/blogs/${id}`,
         {
           method: "DELETE",
         }

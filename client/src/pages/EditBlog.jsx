@@ -24,7 +24,7 @@ function EditBlog() {
     const fetchBlog = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/blogs/${id}`
+          `http://https://techblog-63dr.onrender.com/api/blogs/${id}`
         );
 
         if (!response.ok) {
@@ -70,7 +70,7 @@ function EditBlog() {
       setUpdating(true);
 
       const response = await fetch(
-        `http://localhost:5000/api/blogs/${id}`,
+        `http://https://techblog-63dr.onrender.com/api/blogs/${id}`,
         {
           method: "PUT",
           headers: {

@@ -23,7 +23,7 @@ function AdminDashboard() {
       try {
         // Fetch all blogs
         const blogsResponse = await fetch(
-          "http://localhost:5000/api/blogs"
+          "http://https://techblog-63dr.onrender.com/api/blogs"
         );
 
         if (!blogsResponse.ok) {
@@ -36,7 +36,7 @@ function AdminDashboard() {
 
         // Fetch total article views
         const viewsResponse = await fetch(
-          "http://localhost:5000/api/blogs/stats/views"
+          "http://https://techblog-63dr.onrender.com/api/blogs/stats/views"
         );
 
         if (!viewsResponse.ok) {

@@ -25,7 +25,7 @@ function BlogDetails() {
     const fetchBlog = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/blogs/${id}/view`,
+          `http://https://techblog-63dr.onrender.comog-63dr.onrender.com/api/blogs/${id}/view`,
           {
             method: "POST",
           }

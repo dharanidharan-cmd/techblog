@@ -22,7 +22,7 @@ function Blogs() {
     const fetchBlogs = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/blogs/published"
+          "http://https://techblog-63dr.onrender.com/api/blogs/published"
         );
 
         if (!response.ok) {

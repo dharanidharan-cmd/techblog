@@ -1,0 +1,70 @@
+
+.hero {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f8ff;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.hero-tag {
+  color: #635bff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  line-height: 1.15;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #635bff;
+}
+
+.hero-description {
+  font-size: 17px;
+  color: #666666;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero-search {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  gap: 10px;
+}
+
+.hero-search input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.hero-search button {
+  padding: 15px 25px;
+  background: #635bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-search button:hover {
+  background: #5048e5;
+}
